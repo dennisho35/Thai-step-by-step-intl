@@ -1,0 +1,29 @@
+name: thai_step_by_step
+description: Thai Step by Step International — 16-Language Thai Learning Android App
+publish_to: 'none'
+version: 2.3.0+6
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_tts: ^4.0.2
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  webview_flutter: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/curriculum/thai_curriculum.json
+    - assets/web/thai_step_by_step_app.html
